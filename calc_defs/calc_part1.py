@@ -10,6 +10,14 @@ def part(opcao):
             fat *= m
             m -= 1
         print(f'O Fatorial de {n_fat} é: {fat}')
+# in js:
+# function fatorial(n){
+#     if(n==1){
+#         return 1
+#     }else{
+#         return n * fatorial(n-1)
+#     }
+# }
 
     elif opcao == '12':
         prim_term = int(input('Qual o Primeiro termo: '))
